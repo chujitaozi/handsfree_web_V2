@@ -1,0 +1,180 @@
+---
+layout: default
+---
+
+<!-- Start Hero -->
+<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size:100% 80%;-moz-background-size:100% 100%;">
+    <div class="hero-content">
+        <div class="container-fluid">
+            <div class="hero-content-inner">
+                <h1>{{ site.hero.hero_title }}</h1>
+                <p>{{ site.hero.hero_description }}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+      
+    </div>
+</div>
+<!-- End Hero -->
+
+
+
+ <h2 class="section-title">ROBOTS</h2>
+
+
+<div class="three-shade-col" >
+
+    <div class="col-sm-4"> 
+    <img src="{{ site.baseurl }}/img/handsfree/s_2.jpg" >
+        <h3>Stone</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>空重</td>
+                    <td>约3kg</td>
+                </tr>
+                <tr>
+                    <td>直径</td>
+                    <td>36cm</td>
+                </tr>
+                <tr>
+                    <td>高度(cm)</td>
+                    <td>32.2（不加云台） 125.2（加云台）</td>
+                </tr>
+                <tr>
+                    <td>最大速度</td>
+                    <td>1.2m/s</td>
+                </tr>
+                <tr>
+                    <td>额定承载能力</td>
+                    <td>6kg</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="col-sm-4">
+
+<img src="{{ site.baseurl }}/img/handsfree/m_2.jpg" >
+
+
+        <h3>Mini</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>空重</td>
+                    <td>小于2kg</td>
+                </tr>
+                <tr>
+                    <td>直径</td>
+                    <td>23cm</td>
+                </tr>
+                <tr>
+                    <td>高度(cm)</td>
+                    <td>20.4（不加云台） 33.3（加云台）</td>
+                </tr>
+                <tr>
+                    <td>最大速度</td>
+                    <td>1.2m/s</td>
+                </tr>
+                <tr>
+                    <td>额定承载能力</td>
+                    <td>3kg</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="col-sm-4">
+
+<img src="{{ site.baseurl }}/img/handsfree/g_1.jpg" >
+
+ 
+        <h3>Giraffe</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>空重</td>
+                    <td>小于12kg</td>
+                </tr>
+                <tr>
+                    <td>直径</td>
+                    <td>38cm</td>
+                </tr>
+                <tr>
+                    <td>高度(cm)</td>
+                    <td>33.2（不加云台） 126.2（加云台）</td>
+                </tr>
+                <tr>
+                    <td>最大速度</td>
+                    <td>1.6m/s</td>
+                </tr>
+                <tr>
+                    <td>额定承载能力</td>
+                    <td>30kg</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Start Treatments -->
+<div id="treatments" class="treatments">
+    <div class="container-fluid">
+        <h2 class="section-title">Open Source</h2>
+
+        <div class="row">
+            {% for treatment in site.data.treatments %}
+                <div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                        <img src="{{ site.baseurl }}/img/{{ treatment.image }}" alt="{{ treatment.icon }}">
+                        <h4>{{ treatment.title }}</h4>
+                        <p>  {{ treatment.description }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- End Treatments -->
+

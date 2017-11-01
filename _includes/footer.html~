@@ -1,0 +1,20 @@
+<!-- Start Footer -->
+<footer class="main-footer">
+    <div class="container-fluid">
+        
+                <a href="https://github.com/HANDS-FREE" title="watch all code">
+                    <img src="{{site.baseurl}}/img/github.png" height="50" width="50" />
+                </a>
+                <a href="https://shop145029875.taobao.com/?spm=a1z10.3-c.0.0.zpwB3d" title="buy HandsFree">
+                    <img src="{{site.baseurl}}/img/taobao.png" height="50" width="50" />
+                </a>
+
+                <a href="http://v.qq.com/vplus/0da71a9cdcb1eca7bafef9e42a504593" title="learn more about HandsFree">
+                    <img src="{{site.baseurl}}/img/video.png" height="50" width="50"/>
+                </a>
+
+        <small>{% if site.copyright %} {{ site.copyright }} {% endif %}</small>
+
+    </div>
+</footer>
+<!-- End Footer -->
